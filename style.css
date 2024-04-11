@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    border: solid 3px black;
+    margin: 5px;
+}
+
+.article-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 22%;
+}

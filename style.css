@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-size: cover;
+    background-color: goldenrod;
 }
 
 img{
@@ -17,7 +17,6 @@ img{
 
 nav{
     background-color: goldenrod;
-    top: 1000px  
 }
 
 nav ul{
@@ -43,6 +42,7 @@ nav ul li a{
 
 .article-items{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -76,4 +76,29 @@ footer{
     font-weight: bold;
 }
 
+@media screen and (max-width:1000px){
+    section{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }  
+}
+@media screen and (max-width:500px) {
+    nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .item{
+        width: 50%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .item{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
 

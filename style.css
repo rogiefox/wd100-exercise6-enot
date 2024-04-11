@@ -1,24 +1,44 @@
 body{
     margin: 0;
+    background-color: beige;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-size: cover;
 }
 
 img{
     width: 100%;
 }
 
+nav{
+    background-color: goldenrod;
+    top: 1000px  
+}
+
 nav ul{
     display: flex;
     list-style: none;
+    align-items: center;
     justify-content: center;
     padding: 20px;
+    margin: 0;
     
 }
 
 nav ul li a{
     text-decoration: none;
-    padding: 20px;
-    border: solid 3px black;
+    padding: 10px;
+    border: solid 2px #fff;
     margin: 5px;
+    border-radius: 18px;
+    color: #fff;
+    background-color: black;
+
 }
 
 .article-items{
@@ -28,4 +48,32 @@ nav ul li a{
 
 .item{
     width: 22%;
+    box-sizing: border-box;
+    background-color: bisque;
 }
+
+.socialmedia{
+    color: black;
+    font-size: 20px;
+}
+
+.item div{
+    padding: 10px;
+}
+
+section{
+    width: 1000px;
+    margin: auto;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
